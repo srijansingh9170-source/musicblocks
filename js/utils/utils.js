@@ -64,7 +64,7 @@ const changeImage = (imgElement, from, to) => {
  * @param {string} text - The input text to be translated.
  * @returns {string} The translated text.
  */
-// eslint-disable-next-line no-redeclare
+
 function _(text, options = {}) {
     if (!text) return "";
 
@@ -1399,7 +1399,7 @@ let rationalSum = (a, b) => {
         return [0, 1];
     }
 
-    if (a === 0 || b === 0) {
+    if (a[1] === 0 || b[1] === 0) {
         return [0, 1];
     }
 
